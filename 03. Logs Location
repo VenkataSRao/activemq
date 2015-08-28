@@ -1,0 +1,27 @@
+Change activemq logs to your desired location
+
+Change active_home in below file
+
+/insalled/location/apache-activemq-5.9.1/bin/linux-x86-64/wrapper.conf
+set.default.ACTIVEMQ_DATA = /set/ur/own/path
+
+
+Ex:
+
+/opt/igc_services/igc_datastore_software/apache-activemq-5.9.1/bin/linux-x86-64/wrapper.conf
+
+
+set.default.ACTIVEMQ_DATA=/opt/igc_services/runtime/activemq/data
+
+change log files in below:
+===============================
+
+to change log files directory in below file
+
+/installed/location/apache-activemq-5.9.1/conf/log4j.properties
+log4j.appender.audit.file=/set/ur/path/
+
+
+/opt/igc_services/igc_datastore_software/apache-activemq-5.9.1/conf/log4j.properties
+
+log4j.appender.audit.file=/opt/igc_services/runtime/activemq/log/audit.log
