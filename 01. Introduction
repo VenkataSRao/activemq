@@ -1,1 +1,9 @@
-This is intro
+Apache ActiveMQ is an open source message broker
+Apache ActiveMQ is fast, supports many Cross Language Clients and Protocols..
+It's used to reliably communicate between two distributed processes.
+It provides "Enterprise Features" which in this case means fostering the communication from more than one client or server
+ActiveMQ is used in enterprise service bus implementations such as Apache ServiceMix and Mule. 
+Other projects using ActiveMQ include Apache Camel and Apache CXF in SOA infrastructure projects
+
+
+
