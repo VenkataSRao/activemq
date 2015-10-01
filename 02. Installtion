@@ -1,1 +1,9 @@
-Install
+Steps to Install ActiveMQ
+
+wget http://www.apache.org/dyn/closer.cgi?path=%2Factivemq%2Fapache-activemq%2F5.6.0%2Fapache-activemq-5.6.0-bin.tar.gz
+tar zxvf apache-activemq-5.6.0-bin.tar.gz
+cd apache-activemq-5.6.0/bin
+ ./activemq &
+ 
+ 
+ That's IT... :-)
